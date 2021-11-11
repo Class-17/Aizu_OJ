@@ -18,7 +18,8 @@ int main() {
         int p = x.find('0');
         for (int i = 0; i < 4; ++i) {
             int np = p + dirs[i];
-            if (np < 0 || np >= 8 || p == 3 && np == 4 || p == 4 && np == 3) continue;
+            if (np < 0 || np >= 8 || p == 3 && 
+                np == 4 || p == 4 && np == 3) continue;
             int dist = dp[x] + 1;
             swap(x[p], x[np]);
             if (dp.find(x) == dp.end()) {

@@ -1,1 +1,1 @@
-This repo is created for my Aizu OJ training.
+This repo is created for "Programing Contest Challenge".
