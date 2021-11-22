@@ -8,9 +8,9 @@ int main() {
     scanf("%d", &N);
     priority_queue<double> pq;
     for (int i = 0; i < N; ++i) {
-		double x;
-		scanf("%lf", &x);
-		pq.push(x);
+        double x;
+        scanf("%lf", &x);
+        pq.push(x);
     }
     while (pq.size() > 1) {
         double m1 = pq.top(); pq.pop();
