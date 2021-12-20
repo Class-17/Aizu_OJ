@@ -8,7 +8,7 @@ int find(int ds[], int x) {
 }
 
 int main() {
-    int N, Q;
+    int N, Q; 
     while (scanf("%d %d", &N, &Q)) {
         if (N == 0 && Q == 0) break;
         int ds[MAXN + 1] = {1, 1};
