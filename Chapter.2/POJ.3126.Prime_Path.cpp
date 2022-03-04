@@ -62,10 +62,10 @@ int main() {
     sieve();
     build();
     int _;
-    !scanf("%d", &_);
+    scanf("%d", &_);
     while (_--) {
         int a, b;
-        !scanf("%d %d", &a, &b);
+        scanf("%d %d", &a, &b);
         int res = dijkstra(a, b);
         if (res == -1)
             printf("Impossible\n");
